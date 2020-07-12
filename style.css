@@ -52,6 +52,20 @@ h3,h4{
     width: 60%;
     margin: 0 auto;
 }
+::placeholder{
+    color:#fff;
+    opacity: 0.5;
+    font-size:1rem;;
+    font-style: italic;
+    text-align: center;
+}
+textarea::placeholder{
+    color:#fff;
+    opacity: 0.5;
+    font-size:1rem;;
+    font-style: italic;
+    text-align: center;
+}
 .left{
     background-image: linear-gradient(to right top,#051937,#004d7a,#00bf72,#a8eb12);
     border: 1px solid #fff;
