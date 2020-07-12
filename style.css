@@ -59,6 +59,9 @@ h3,h4{
     font-style: italic;
     text-align: center;
 }
+textarea{
+    border: 2px solid  #a8eb12 !important;
+}
 textarea::placeholder{
     color:#fff;
     opacity: 0.5;
