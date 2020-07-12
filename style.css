@@ -3,7 +3,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Grenze Gotisch', cursive;  
+    font-family: 'Grenze Gotisch', cursive; 
+    font-size: 20px; 
 }
 .navbar-brand{
     color: #a8eb12 !important; 
@@ -12,7 +13,7 @@ body{
     color: #a8eb12;
 }
 #top{
-    background: #000;
+    background: #051937;
     color:rgba(252, 250, 248, 0.479);
 }
 .navbar{
@@ -33,14 +34,23 @@ h3,h4{
     flex-direction: column;
     justify-content: center;
 }
-.description>h2{
+.description>h1{
     text-align: center;
     color: rgb(240, 234, 235);
-    font-size: 30px;
+    font-size: 60px;  
+}
+.underline{
+    height: 10px;
+    width: 60%;
+    background: #a8eb12;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 .description>p{
     text-align: center;
     color: rgb(240, 234, 235);
+    width: 60%;
+    margin: 0 auto;
 }
 .left{
     background-image: linear-gradient(to right top,#051937,#004d7a,#00bf72,#a8eb12);
@@ -88,6 +98,9 @@ h3,h4{
     height: auto;
     object-fit: contain;
 }
+.sub-header{
+    background: white;
+}
 #four{
     background-image: linear-gradient(to right top,#051937,#004d7a,#00bf72,#a8eb12);
 }
@@ -133,5 +146,15 @@ textarea:focus{
    
     .navbar-toggler :hover{
         border: 1px solid #051937 !important;
+    }
+}
+@media only screen and (max-width:400px){
+    .mybtn{
+        display: flex; 
+        justify-content: center;       
+    }
+    .right,.left{
+        padding:0 30px !important;
+     
     }
 }
