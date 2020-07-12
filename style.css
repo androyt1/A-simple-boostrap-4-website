@@ -61,7 +61,7 @@ h3,h4{
 }
 textarea{
     border: 2px solid  #a8eb12 !important;
-    margin:0 auto;
+    width:90%;
 }
 textarea::placeholder{
     color:#fff;
